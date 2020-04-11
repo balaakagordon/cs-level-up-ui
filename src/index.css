@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+.nav {
+  overflow: auto;
+  background-color: #464646;
+}
+
+.nav-item {
+  display: block;
+  padding: 15px;
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.float-right {
+  float: right;
+}
