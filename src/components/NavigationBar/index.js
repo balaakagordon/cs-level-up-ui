@@ -1,7 +1,19 @@
-import React from 'react';
+import React from "react";
+import { withRouter } from "react-router-dom";
+import { connect } from "react-redux";
+import NavigationLinks from "./NavigationLinks";
+// import history from "../../history";
 
 const NavigationBar = () => {
-    return;
-}
+  return (
+    <ul>
+      <NavigationLinks />
+    </ul>
+  );
+};
 
-export default NavigationBar;
+const mapStateToProps = (state) => ({
+  // authenticated: state.navbar.authenticated
+});
+
+export default withRouter(connect(mapStateToProps, {})(NavigationBar));

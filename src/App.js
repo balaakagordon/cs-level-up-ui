@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { Provider } from "react-redux";
 import { Router, Switch } from "react-router-dom";
-import { NavigationBar } from "./components";
+import NavigationBar from "./components/NavigationBar";
 import Routes from "./Routes";
 import store from "./store";
 import history from "./history";
